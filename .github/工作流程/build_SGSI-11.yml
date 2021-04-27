@@ -26,7 +26,7 @@ jobs:
            echo -e "\033[33m 线程数: $(nproc) \033[0m"
            回声“ :: set-output name = rom_url :"https://hugeota.d.miui.com/21.4.23/miui_STAR_21.4.23_32ae969a59_11.0.zip"
            回声“ :: set-output name = rom_name："updata.zip"
-           回声“ :: set-output name = pack_sgsi :"SGSI.zip"
+           回声“ :: set-output name= pack_sgsi :"SGSI.zip"
            echo "::set-output name=make_type":"AB"
            echo "::set-output name=rom_type":""
            echo "::set-output name=light_fix:true
