@@ -24,7 +24,7 @@ jobs:
        - name: Get variables
          run: |
            echo -e "\033[33m 线程数: $(nproc) \033[0m"
-           回声“ :: set-output name = rom_url :"https://hugeota.d.miui.com/21.4.23/miui_STAR_21.4.23_32ae969a59_11.0.zip"
+           回声“ :: set-output name = rom_url :"https://hugeota.d.miui.com/21.3.31/miui_CAS_21.3.31_1c3d70971c_11.0.zip"
            回声“ :: set-output name = rom_name："updata.zip"
            回声“ :: set-output name= pack_sgsi :"SGSI.zip"
            echo "::set-output name=make_type":"AB"
