@@ -24,18 +24,18 @@ jobs:
        - name: Get variables
          run: |
            echo -e "\033[33m 线程数: $(nproc) \033[0m"
-           echo "::set-output name=rom_url::$(jq -r '.rom_url' sgsi.json)"
-           echo "::set-output name=rom_name::$(jq -r '.rom_name' sgsi.json)"
-           echo "::set-output name=pack_sgsi::$(jq -r '.pack_sgsi' sgsi.json)"
-           echo "::set-output name=make_type::$(jq -r '.make_type' sgsi.json)"
-           echo "::set-output name=rom_type::$(jq -r '.rom_type' sgsi.json)"
-           echo "::set-output name=light_fix::$(jq -r '.light_fix' sgsi.json)"
-           echo "::set-output name=bug_fix::$(jq -r '.bug_fix' sgsi.json)"
-           echo "::set-output name=version::$(jq -r '.version' sgsi.json)"
-           echo "::set-output name=upload_transfer::$(jq -r '.upload_transfer' sgsi.json)"
-           echo "::set-output name=upload_release::$(jq -r '.upload_release' sgsi.json)"
-           echo "::set-output name=use_7zip::$(jq -r '.use_7zip' sgsi.json)"
-           echo "::set-output name=use_zip::$(jq -r '.use_zip' sgsi.json)"           
+           echo "::set-output name=rom_url:https://hugeota.d.miui.com/21.3.31/miui_CAS_21.3.31_1c3d70971c_11.0.zip
+           echo "::set-output name=rom_name:updata.zip
+           echo "::set-output name=pack_sgsi:SGSI.zip
+           echo "::set-output name=make_type:AB
+           echo "::set-output name=rom_type:
+           echo "::set-output name=light_fix:true
+           echo "::set-output name=bug_fix:true
+           echo "::set-output name=version:11
+           echo "::set-output name=upload_transfer:true
+           echo "::set-output name=upload_release:true
+           echo "::set-output name=use_7zip:false
+           echo "::set-output name=use_zip:true
            
          id: var
          
